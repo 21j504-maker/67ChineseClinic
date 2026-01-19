@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header-style{
+    background-color: darkgreen;
+    color:white;
+    padding: 15px;
+}
+#logo{
+    text-align: left;
+    font-size: 20px;
+    border-color: white;
+    border-width: 5px;
+    border-style: ridge;
+    padding: 5px 15px;
+    flex:1;
+}
+#slogan{
+    text-align: center;
+    color: aquamarine;
+    font-size: 32px;
+    flex:2;
+}
+#menu{
+    text-align: right;
+    flex:1;
+}
+.nav-links{
+    color: white;
+    
+}
+.flex-container { 
+    display:flex; 
+    align-items:center;
+} 
+.footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+/* Content Starter */
+main{
+    background-color: beige;
+    color: black;
+    padding: 30px 100px;
+}
+main h1{
+    color: red;
+    text-align: center;
+    margin-bottom: 30px;
+}
+main p{
+    font-size: 16px;
+}
+#herobanner{
+    width: 100%;
+    margin-bottom: 50px;
+}
+/* Table Starter */
+#schedule-table { 
+    border-collapse:collapse;
+    width: 100%;
+}
+#schedule-table > tbody > tr > th,
+#schedule-table > tbody> tr > td { 
+    border:1px solid black;
+}
+table th, td{
+    text-align: center;
+    padding: 3px;
+}
+.no-space{
+    text-align: left;
+}
+.black{
+    color: white;
+    background-color: black;
+}
+.grid-container { 
+    display:grid; 
+    grid-template-columns:repeat(12,1fr); 
+}
+.treatment{
+    border:1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+.treatment img {
+    max-width:100%;
+}
+.hr{
+    margin: 10px 0px;
+}
+.span-6{
+    grid-column: span 6;
+}
+.span-3{
+    grid-column: span 3;
+}
