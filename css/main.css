@@ -99,3 +99,17 @@ table th, td{
 .span-3{
     grid-column: span 3;
 }
+a{
+    text-decoration: none;
+}
+#myresponse{
+    margin-bottom: 50px;
+}
+#howard{
+    margin-bottom: 15px;
+    color: red;
+}
+/* Changes the color when the user hovers over the link */
+a:hover {
+    color: lawngreen; 
+}
