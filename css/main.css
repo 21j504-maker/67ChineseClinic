@@ -114,3 +114,10 @@ a{
 a:hover {
     color: lawngreen; 
 }
+/* Makes the header stick to the top*/
+.sticky-header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    }
